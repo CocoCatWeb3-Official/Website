@@ -31,5 +31,3 @@ Preview the production build locally:
 ```
 npm run preview
 ```
-#### 6. Deployment
-For deployment instructions, check out the deployment documentation.
