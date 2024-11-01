@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('@/assets/fonts/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('@/assets/fonts/Montserrat-Bold.woff2') format('woff2');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('@/assets/fonts/Roboto-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('@/assets/fonts/Roboto-Bold.woff2') format('woff2');
+	font-weight: bold;
+}
+
+
+@max1520: ~"(max-width: 1520px)";
+@max1420: ~"(max-width: 1420px)";
+@max1350: ~"(max-width: 1350px)";
+@max1200: ~"(max-width: 1200px)";
+@max992: ~"(max-width:992px)";
+@max768: ~"(max-width: 768px)";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+.roboto {
+	font-family: Roboto;
+
+}
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+html {
+	font-size: 16px;
+}
+
+
+#app {
+	background-color: #3995ff;
+	background-color: #000;
+	// min-height: 100vh;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-image: url('@/assets/images/app/topBg.png'), linear-gradient(to bottom, #7bbfff00, #0047FF);
+	background-size: 1520px 413px, 100% 900px;
+	background-position: top center, bottom center;
+}
+
+#app::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 160px;
+	background-repeat: no-repeat;
+	background-image: url('@/assets/images/app/bgStar.png'), ;
+	background-size: 750px 160px;
+	background-position: top center;
+	pointer-events: none;
+}
+
+.w {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1520px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+@media @max1520 {
+
+	html {
+		font-size: 15px;
+	}
+}
+
+@media @max1420 {
+
+	html {
+		font-size: 14px;
+	}
+}
+
+@media @max1350 {
+
+	html {
+		font-size: 12px;
+	}
+}
+
+@media @max1200 {
+
+	html {
+		font-size: 10px;
+	}
+}
+
+@media @max992 {
+
+	html {
+		font-size: 8px;
+	}
+
+	//  ($1 / 16rem)
+
+}
+
+@media @max768 {
+
+	html {
+		font-size: 16px;
+	}
+
+	//  ($1 / 3.9vw)
+
+}
+
+// @import '@/assets/style/base';
+
+.arco-notification-content {
+	line-height: 24px;
+}

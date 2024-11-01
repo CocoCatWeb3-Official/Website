@@ -1,0 +1,107 @@
+{
+  "id": "4519725",
+  "name": "cococat",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "Web icon",
+  "glyphs": [
+    {
+      "icon_id": "40043858",
+      "name": "telegarm",
+      "font_class": "telegarm",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "40043859",
+      "name": "apk",
+      "font_class": "apk",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "40043860",
+      "name": "emali",
+      "font_class": "emali",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "40043857",
+      "name": "googleplay",
+      "font_class": "googleplay",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "40043871",
+      "name": "打开",
+      "font_class": "dakai",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "40043866",
+      "name": "右上",
+      "font_class": "youshang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "40043864",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "40043863",
+      "name": "推特",
+      "font_class": "tuite",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "40043862",
+      "name": "商店",
+      "font_class": "shangdian",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "40043861",
+      "name": "discord",
+      "font_class": "discord",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "40043754",
+      "name": "全球节点",
+      "font_class": "quanqiujiedian",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "40043657",
+      "name": "节点",
+      "font_class": "jiedian",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "40043656",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "40043720",
+      "name": "疑问",
+      "font_class": "yiwen",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}

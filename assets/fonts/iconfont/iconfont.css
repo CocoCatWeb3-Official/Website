@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 4519725 */
+  src: url('iconfont.eot?t=1713838808853');
+  /* IE9 */
+  src: url('iconfont.eot?t=1713838808853#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('iconfont.woff2?t=1713838808853') format('woff2'),
+    url('iconfont.woff?t=1713838808853') format('woff'),
+    url('iconfont.ttf?t=1713838808853') format('truetype'),
+    url('iconfont.svg?t=1713838808853#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 1em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telegarm:before {
+  content: "\e61e";
+}
+
+.icon-apk:before {
+  content: "\e61f";
+}
+
+.icon-emali:before {
+  content: "\e620";
+}
+
+.icon-googleplay:before {
+  content: "\e621";
+}
+
+.icon-dakai:before {
+  content: "\e61a";
+}
+
+.icon-youshang:before {
+  content: "\e619";
+}
+
+.icon-sousuo:before {
+  content: "\e618";
+}
+
+.icon-tuite:before {
+  content: "\e61b";
+}
+
+.icon-shangdian:before {
+  content: "\e61c";
+}
+
+.icon-discord:before {
+  content: "\e61d";
+}
+
+.icon-quanqiujiedian:before {
+  content: "\e617";
+}
+
+.icon-jiedian:before {
+  content: "\e614";
+}
+
+.icon-guanbi:before {
+  content: "\e616";
+}
+
+.icon-yiwen:before {
+  content: "\e615";
+}
