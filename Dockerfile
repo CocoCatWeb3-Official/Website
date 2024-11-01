@@ -14,8 +14,4 @@ EXPOSE 6999
 
 CMD node .output/server/index.mjs
 
- 
-# docker build -t cococat:v1.0.0 .  
-# docker run -d -p 6999:6999 cococat:v1.0.0
-
 
